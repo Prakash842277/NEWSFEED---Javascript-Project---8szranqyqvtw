@@ -1,22 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEWSFEED</title>
+    <title>News Feed</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <h1>My NewsFeed</h1>
+    </header>
+    <nav>
+      <div id="header">
+      <select id="categorySelect">
+        <option value="science">Science</option>
+        <option value="all">All</option>
+        <option value="business">Business</option>
+        <option value="sports">Sports</option>
+        <option value="world">World</option>
+        <option value="politics">Politics</option>
+        <option value="hatke">Hatke</option>
+        <option value="automobile">Automobile</option>
+      </select>
+      <button id="loadNewsButton" onclick="showDiv()">Load News</button>
+      <button id="loadSavedButton">Load Saved</button>
+    </div>
+    </nav>
     <main>
-        <div class="container">
-          <h1>My Newsfeed</h1>
-          <div class="buttons">
-          <button id="saved-news-button">Load Saved News</button>
-          <button id="new-news-button">Load New News</button>
-          </div>
-        </div>
+      <div id="hidden" style="display: none;">
+      <div id="newsContainer"></div>
+  
+    </div>
+    <h3>Get Latest News</h3>
+    <h2>Stay Updated!</h2>
     </main>
-    <script src="main.js"></script>
-</body>
+    <script src="App.js"></script>
+  </body>
 </html>
