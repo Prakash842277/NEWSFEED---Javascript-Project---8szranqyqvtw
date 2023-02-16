@@ -1,4 +1,3 @@
-
 const newsContainer = document.querySelector("#newsContainer");
 const saveButton = document.querySelector("#saveButton");
 const loadSavedButton = document.querySelector("#loadSavedButton");
