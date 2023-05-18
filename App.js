@@ -1,5 +1,5 @@
 const newsContainer = document.getElementById("#newsContainer");
-const saveButton = document.querySelector("#saveButton");
+const saveButton = document.getElementById("#saveButton");
 const loadSavedButton = document.getElementById("#loadSavedButton");
 const loadNewsButton = document.getElementById("#loadNewsButton");
 const categorySelect = document.getElementById("#categorySelect");
