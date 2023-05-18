@@ -5,7 +5,7 @@ const loadNewsButton = document.getElementById("#loadNewsButton");
 const categorySelect = document.getElementById("#categorySelect");
 
 function showDiv() {
-  document.querySelector('#hidden').style.display = "block";
+  document.getElementById('#hidden').style.display = "block";
 }
 
 const savedNews = [];
