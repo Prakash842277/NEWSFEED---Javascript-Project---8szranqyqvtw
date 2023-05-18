@@ -17,7 +17,7 @@ const handleSavedNews = (savedItem) => {
   alert("News saved")
 }
 
-const getNews = (category = ${category}) => {
+const getNews = (category = "science") => {
   newsContainer.innerHTML = "";
   fetch(`https://inshorts.deta.dev/news?category=${category}`)
     .then((response) => response.json())
